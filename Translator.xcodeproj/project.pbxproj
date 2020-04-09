@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,12 +16,11 @@
 		3C6E343B22F56CCE00403D4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E342F22F56CCD00403D4C /* Main.storyboard */; };
 		3C6E344122F5878000403D4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C6E344322F5878000403D4C /* InfoPlist.strings */; };
 		41045B01231B808C006D6460 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41045B00231B808C006D6460 /* Keys.swift */; };
-		F95DE5B79B966AD36BB33AEE /* Pods_Translator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D79DB2BA0560492FA9D9AA6 /* Pods_Translator.framework */; };
+		CD415A26243F193500522078 /* CSV in Frameworks */ = {isa = PBXBuildFile; productRef = CD415A25243F193500522078 /* CSV */; };
+		CD415A29243F1B9B00522078 /* FileKit in Frameworks */ = {isa = PBXBuildFile; productRef = CD415A28243F1B9B00522078 /* FileKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2E93A26B8188B159FE9F29D2 /* Pods-LoadCSV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadCSV.release.xcconfig"; path = "Target Support Files/Pods-LoadCSV/Pods-LoadCSV.release.xcconfig"; sourceTree = "<group>"; };
-		38454C28DAFFBBE40512FED0 /* Pods-LoadCSV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoadCSV.debug.xcconfig"; path = "Target Support Files/Pods-LoadCSV/Pods-LoadCSV.debug.xcconfig"; sourceTree = "<group>"; };
 		3C0B910422F2D91000F16E13 /* Translator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Translator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C6E342322F56CCD00403D4C /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		3C6E342422F56CCD00403D4C /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
@@ -35,12 +34,6 @@
 		3C6E344222F5878000403D4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C6E344422F5878100403D4C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		41045B00231B808C006D6460 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
-		692630796155B6FDC31D0815 /* Pods-Translator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.release.xcconfig"; path = "Target Support Files/Pods-Translator/Pods-Translator.release.xcconfig"; sourceTree = "<group>"; };
-		6D0D6BF778C16B590868AA36 /* Pods-Translator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Translator.debug.xcconfig"; path = "Target Support Files/Pods-Translator/Pods-Translator.debug.xcconfig"; sourceTree = "<group>"; };
-		7CEC66A805C90491D6A06B86 /* Pods_LoadCSV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoadCSV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D79DB2BA0560492FA9D9AA6 /* Pods_Translator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Translator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC9B5DF5C5BCBE8D56A700FA /* Pods-LocalizedHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedHelper.debug.xcconfig"; path = "Target Support Files/Pods-LocalizedHelper/Pods-LocalizedHelper.debug.xcconfig"; sourceTree = "<group>"; };
-		EE539BA2BD04FE5C6B007E0D /* Pods-LocalizedHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalizedHelper.release.xcconfig"; path = "Target Support Files/Pods-LocalizedHelper/Pods-LocalizedHelper.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,33 +41,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F95DE5B79B966AD36BB33AEE /* Pods_Translator.framework in Frameworks */,
+				CD415A26243F193500522078 /* CSV in Frameworks */,
+				CD415A29243F1B9B00522078 /* FileKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04B840BC622AA5A3A4826907 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				38454C28DAFFBBE40512FED0 /* Pods-LoadCSV.debug.xcconfig */,
-				2E93A26B8188B159FE9F29D2 /* Pods-LoadCSV.release.xcconfig */,
-				CC9B5DF5C5BCBE8D56A700FA /* Pods-LocalizedHelper.debug.xcconfig */,
-				EE539BA2BD04FE5C6B007E0D /* Pods-LocalizedHelper.release.xcconfig */,
-				6D0D6BF778C16B590868AA36 /* Pods-Translator.debug.xcconfig */,
-				692630796155B6FDC31D0815 /* Pods-Translator.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		3C0B90FB22F2D91000F16E13 = {
 			isa = PBXGroup;
 			children = (
 				3C0B910622F2D91000F16E13 /* Translator */,
 				3C0B910522F2D91000F16E13 /* Products */,
-				04B840BC622AA5A3A4826907 /* Pods */,
-				6B91E57F9EA3223C8C798EEE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -119,15 +98,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		6B91E57F9EA3223C8C798EEE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7CEC66A805C90491D6A06B86 /* Pods_LoadCSV.framework */,
-				7D79DB2BA0560492FA9D9AA6 /* Pods_Translator.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,7 +105,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3C0B911622F2D91300F16E13 /* Build configuration list for PBXNativeTarget "Translator" */;
 			buildPhases = (
-				1908A6498438DCCD888EB49F /* [CP] Check Pods Manifest.lock */,
 				3C0B910022F2D91000F16E13 /* Sources */,
 				3C0B910122F2D91000F16E13 /* Frameworks */,
 				3C0B910222F2D91000F16E13 /* Resources */,
@@ -146,6 +115,10 @@
 			dependencies = (
 			);
 			name = Translator;
+			packageProductDependencies = (
+				CD415A25243F193500522078 /* CSV */,
+				CD415A28243F1B9B00522078 /* FileKit */,
+			);
 			productName = LoadCSV;
 			productReference = 3C0B910422F2D91000F16E13 /* Translator.app */;
 			productType = "com.apple.product-type.application";
@@ -157,7 +130,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "晋先森";
 				TargetAttributes = {
 					3C0B910322F2D91000F16E13 = {
@@ -180,6 +153,10 @@
 				"zh-Hans",
 			);
 			mainGroup = 3C0B90FB22F2D91000F16E13;
+			packageReferences = (
+				CD415A24243F193500522078 /* XCRemoteSwiftPackageReference "CSV.swift" */,
+				CD415A27243F1B9B00522078 /* XCRemoteSwiftPackageReference "FileKit" */,
+			);
 			productRefGroup = 3C0B910522F2D91000F16E13 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -204,43 +181,20 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1908A6498438DCCD888EB49F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Translator-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		96949DAA3A66094F27FC045C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Translator/Pods-Translator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Translator/Pods-Translator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Translator/Pods-Translator-frameworks.sh\"\n";
+			shellScript = "
+";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -409,13 +363,13 @@
 		};
 		3C0B911722F2D91300F16E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D0D6BF778C16B590868AA36 /* Pods-Translator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2YUK8PBD8V;
+				DEVELOPMENT_TEAM = N6JQ46CTL8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Translator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -431,13 +385,13 @@
 		};
 		3C0B911822F2D91300F16E13 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 692630796155B6FDC31D0815 /* Pods-Translator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 2YUK8PBD8V;
+				DEVELOPMENT_TEAM = N6JQ46CTL8;
+				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = "$(SRCROOT)/Translator/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -473,6 +427,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CD415A24243F193500522078 /* XCRemoteSwiftPackageReference "CSV.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yaslab/CSV.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.3;
+			};
+		};
+		CD415A27243F1B9B00522078 /* XCRemoteSwiftPackageReference "FileKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nvzqz/FileKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CD415A25243F193500522078 /* CSV */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD415A24243F193500522078 /* XCRemoteSwiftPackageReference "CSV.swift" */;
+			productName = CSV;
+		};
+		CD415A28243F1B9B00522078 /* FileKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CD415A27243F1B9B00522078 /* XCRemoteSwiftPackageReference "FileKit" */;
+			productName = FileKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C0B90FC22F2D91000F16E13 /* Project object */;
 }
